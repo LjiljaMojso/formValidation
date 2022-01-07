@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Lato", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(97, 120, 210, 1) 30%,
+    rgba(106, 119, 168, 1) 70%
+  );
+}
+.container {
+  background-color: #fefefe;
+  padding: 48px;
+  border-radius: 16px;
+}
+::placeholder {
+  color: #aaa;
+}
+h1 {
+  color: #36213e;
+  font-size: 25px;
+  margin-bottom: 32px;
+  text-align: center;
+}
+.form-item {
+  margin: 16px 0px;
+}
+input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 8px 16px;
+  border: 1px solid #8ac6d8;
+  color: #9414c7c7;
+  border-radius: 8px;
+}
+.form-item input:focus,
+.form-item textarea:focus {
+  border: 1px solid #7c6ba5;
+}
+.submit-btn {
+  display: flex;
+  justify-content: center;
+}
+button {
+  margin-top: 16px;
+  padding: 0.6rem 1.2rem;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: #fff;
+  font-weight: bold;
+  border: 1px solid #554971;
+  background-color: #7c6ba5;
+  transition: 0.2s ease-in-out;
+}
+button:hover {
+  background-color: #63768d;
+  border: 1px solid #333;
+  cursor: pointer;
+}
+.error {
+  color: #b92222;
+  font-size: 0.9rem;
+}
+.error-main {
+  color: #b92222;
+  font-size: 1.2rem;
+}
